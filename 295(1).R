@@ -42,6 +42,10 @@ now
 install.packages(c("devtools", "roxygen2", "testthat", "rmarkdown", "pkgdown", "purrr"))
 devtools::has_devel()
 
+usethis::use_git_config(
+  user.name = "berfinakdm" , 
+  user.email = "akdemir.berfin@metu.edu.tr"
+)
 
 
 
