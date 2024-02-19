@@ -39,7 +39,8 @@ myarray
 now <- Sys.time()
 now
 
-
+install.packages(c("devtools", "roxygen2", "testthat", "rmarkdown", "pkgdown", "purrr"))
+devtools::has_devel()
 
 
 
